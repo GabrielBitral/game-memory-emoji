@@ -43,7 +43,7 @@ function handleClick() {
 }
 
 function playSound() {
-    const audio = new Audio('../src/audio/virar.wav');
+    const audio = new Audio('./src/audio/virar.wav');
     audio.volume = 0.2;
     audio.play();
 }
